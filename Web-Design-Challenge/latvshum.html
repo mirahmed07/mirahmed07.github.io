@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Latitude vs. Humidity</title>
   </head>
   <body class="bg-dark">
@@ -44,23 +45,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7 mt-5">
-                <div class="card">
+                <div class="card animate__animated animate__fadeInLeft">
                     <h4 class="card-header text-info">Latitude vs. Humidity</h4>
                     <div class="card-body">
                         <img id="img-wrap" class="img-fluid img-center" src="assets/images/Fig2.png" Title="Lat vs Humidity" width="518">
-                        <p class="card-text font-weight-light">The scatterplot for Latitude vs. Humidity (%) does not appear to have much correlation. From the data points visualized, we can see that a large number of cities seem to have high humidity levels currently (in June 2020), with
+                        <p class="card-text font-weight-light">The scatterplot for Latitude vs. Humidity (%) does not appear to have much correlation. From the data points visualized, we can see that a large number of cities seem to have high humidity levels, with
                             the majority being near the equator or in the northern hemisphere.</p>
-                        <p class="card-text font-weight-light">There is a trend of higher humidity levels in a majority of cities in the northern hemisphere at this time regardless of distance from the equator, as compared to cities in the southern hemisphere.</p>
+                        
                     </div>
                 </div>
             </div>
 
             <div class="col-md-5 mt-5">
-                <div class="card">
+                <div class="card animate__animated animate__fadeInRight">
                     <h4 class="card-header text-info">Visualizations</h4>
                     <div class="card-body">
 
-                        <div class="row pb-3">
+                        <div class="row pb-4">
                             <div class="col-md-6">
                                 <a href="latvsmaxtemp.html"><img class="img-fluid img-center viz-box" src="assets/images/Fig1.png" title="Lat vs. Max Temp" width="400"></a>
                             </div>
@@ -69,7 +70,7 @@
                             </div>
                         </div>
 
-                        <div class="row pb-3">
+                        <div class="row pb-4">
                             <div class="col-md-6">
                                 <a href="latvscloud.html"><img class="img-fluid img-center viz-box" src="assets/images/Fig3.png" title="Lat vs. Cloudiness" width="400"></a>
                             </div>
