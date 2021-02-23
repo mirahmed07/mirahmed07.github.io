@@ -27,7 +27,7 @@ function resetTable() {
 
     // clear the current data
     clearTable();
-
+    
     // use forEach and Object.values to populate the initial table
     tableData.forEach((ufoSighting) => {
         var row = tbody.append("tr");
