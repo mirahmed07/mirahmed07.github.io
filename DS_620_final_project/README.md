@@ -7,3 +7,6 @@
 
 
 [COVID-19 GeoJSON heatmap](https://mirahmed07.github.io/DS_620_final_project/Covid_geojson.html)
+
+
+[COVID-19 Plotly heatmap](https://mirahmed07.github.io/DS_620_final_project/covid_world_plotly.html)
